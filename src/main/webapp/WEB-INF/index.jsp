@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>FruityLoopsTake2</title>
+<title>java26countertake2</title>
 <meta charset="UTF-8">
 <!-- local css -->
 <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -25,10 +25,11 @@
 	<a href= "/date">Date Template</a>
 	<a href= "/time">Time Template</a>
 	<a href= "/dojos">Dojos</a>
+	<a href= "/counter">Site Visit Counter</a>
 	
 	<h2>Fruits</h2>
 	
-	${fruitsFromHomeController}
+	<%-- ${fruitsFromHomeController} --%>
 	
 	<c:forEach var="fruit" items="${fruitsFromHomeController}">
         <p> ${fruit.name} - $${fruit.price}</p>
